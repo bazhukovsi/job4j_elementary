@@ -7,6 +7,6 @@ public class Triangle {
 
     public static void main(String[] args) {
         boolean triangle;
-        System.out.println(Triangle.exist(100,10,10));
+        System.out.println(Triangle.exist(100.0, 10.0, 10.0));
     }
 }
