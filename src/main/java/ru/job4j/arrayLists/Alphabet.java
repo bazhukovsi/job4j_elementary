@@ -11,9 +11,7 @@ public class Alphabet {
         List<String> list = new ArrayList<>();
         String out;
         String [] strings = s.split("");
-        for (int i = 0; i < strings.length; i++) {
-            list.add(strings[i]);
-        }
+        Collections.addAll(list, strings);
         list.sort(Comparator.naturalOrder());
         for (String value : list) {
             sb.append(value);
