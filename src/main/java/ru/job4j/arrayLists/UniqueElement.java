@@ -5,18 +5,14 @@ import java.util.List;
 
 public class UniqueElement {
     public static boolean checkList(List<String> list, String str) {
-        int index = 0;
-        int lastIndex = 0;
+        int index;
+        int lastIndex;
         if (!list.contains(str)) {
             return false;
         }
         index = list.indexOf(str);
         lastIndex = list.lastIndexOf(str);
-        if (index == lastIndex) {
-            return true;
-        } else {
-            return false;
-        }
+        return index == lastIndex;
     }
 
     public static void main(String[] args) {
