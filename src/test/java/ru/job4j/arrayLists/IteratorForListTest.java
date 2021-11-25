@@ -1,6 +1,7 @@
 package ru.job4j.arrayLists;
 
 import org.junit.Test;
+import ru.job4j.array.IteratorForList;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

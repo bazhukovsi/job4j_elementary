@@ -1,6 +1,7 @@
 package ru.job4j.arrayLists;
 
 import org.junit.Test;
+import ru.job4j.array.Alphabet;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;

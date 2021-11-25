@@ -1,4 +1,4 @@
-package ru.job4j.arrayLists;
+package ru.job4j.array;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,7 +10,7 @@ public class Alphabet {
         StringBuilder sb = new StringBuilder();
         List<String> list = new ArrayList<>();
         String out;
-        String [] strings = s.split("");
+        String[] strings = s.split("");
         Collections.addAll(list, strings);
         list.sort(Comparator.naturalOrder());
         for (String value : list) {

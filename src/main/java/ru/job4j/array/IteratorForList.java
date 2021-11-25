@@ -1,4 +1,4 @@
-package ru.job4j.arrayLists;
+package ru.job4j.array;
 
 import java.util.Iterator;
 import java.util.List;
