@@ -7,7 +7,6 @@ public class Factorial {
                 result *= i;
             }
         return result;
-
     }
 
     public static void main(String[] args) {
