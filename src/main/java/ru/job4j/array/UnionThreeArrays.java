@@ -19,7 +19,6 @@ public class UnionThreeArrays {
                 outArray[i + 1] = middle[i];
             }
         }
-
         return outArray;
     }
 
