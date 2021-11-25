@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SummingPrevious {
     public static int[] calculate(int a, int b, int n) {
-        int [] ints = new int[n];
+        int[] ints = new int[n];
         ints[0] = a;
         ints[1] = b;
         int summa = 0;
