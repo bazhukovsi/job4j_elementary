@@ -8,15 +8,15 @@ public class AndArray {
         int index = 0;
         for (int i = 0; i < left.length; i++) {
             for (int j = 0; j < right.length; j++) {
-                if (left[i] == right[j]){
+                if (left[i] == right[j]) {
                     count++;
                 }
             }
         }
-        int [] ints = new int[count];
+        int[] ints = new int[count];
         for (int i = 0; i < left.length; i++) {
             for (int j = 0; j < right.length; j++) {
-                if (left[i] == right[j]){
+                if (left[i] == right[j]) {
                     ints[index] = left[i];
                     index++;
                 }
