@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class Firewall {
     public static String checkName(String s, Set<String> words) {
-        String [] strings = s.split(" ");
+        String[] strings = s.split(" ");
         String value;
         for (String word : words) {
             value = word;

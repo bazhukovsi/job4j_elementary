@@ -10,7 +10,7 @@ public class RemoveIf {
     }
 
     public static void main(String[] args) {
-        List <String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         list.add("one");
         list.add("two");
         list.add("three");
@@ -22,7 +22,7 @@ public class RemoveIf {
         list.add("nine");
         list.add("ten");
         sortList(list);
-        for(String str : list){
+        for (String str : list) {
             System.out.println(str);
         }
     }

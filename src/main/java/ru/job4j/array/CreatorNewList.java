@@ -14,7 +14,7 @@ public class CreatorNewList {
         System.out.println("Создаем список - в конструктор передаем коллекцию.");
         List<String> second = new ArrayList<>(first);
         System.out.println("Выводим все элементы в списке.");
-        for (String str : second){
+        for (String str : second) {
             System.out.println(str);
         }
     }
