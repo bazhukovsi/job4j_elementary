@@ -5,14 +5,14 @@ public class SumWithStopEl {
         int index = 0;
         int summa = 0;
         for (int i = 0; i < data.length; i++) {
-            if (data[i] == el){
+            if (data[i] == el) {
                 index = i;
             }
         }
         for (int i = 0; i < index; i++) {
             summa += data[i];
         }
-        if (summa % 2 == 0){
+        if (summa % 2 == 0) {
             return summa;
         }
         return 0;
