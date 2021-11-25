@@ -1,6 +1,5 @@
 package ru.job4j.condition;
 
-
 public class ArithmeticActions {
 
     public static String checkNumber(int number) {
