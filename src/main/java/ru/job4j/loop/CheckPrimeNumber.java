@@ -7,10 +7,10 @@ public class CheckPrimeNumber {
             prime = false;
             return prime;
         }
-        for (int i = 2; i <= number; i++) {
-            if (number % i == 0 && i != number) {
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
                 prime = false;
-                return prime;
+                break;
             }
         }
         return prime;
