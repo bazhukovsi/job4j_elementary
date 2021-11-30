@@ -6,29 +6,62 @@ import org.junit.Test;
 public class MaxTest {
 
     @Test
-    public void maxRight() {
-        int left = 1;
-        int right = 2;
-        int result = Max.max(left, right);
+    public void maxTwoOperand() {
+        int a = 1;
+        int b = 2;
+        int result = Max.max(a, b);
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
 
     @Test
-    public void maxLeft() {
-        int left = 2;
-        int right = 1;
-        int result = Max.max(left, right);
+    public void maxThreeOperand() {
+        int a = 10;
+        int b = 9;
+        int c = 100;
+        int result = Max.max(a, b, c);
+        int expected = 100;
+        Assert.assertEquals(result, expected);
+    }
+    @Test
+
+    public void maxFourOperand() {
+        int a = 10;
+        int b = 9;
+        int c = 100;
+        int d = -90;
+        int result = Max.max(a, b, c, d);
+        int expected = 100;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void maxEqualsTwoOperand() {
+        int a = 2;
+        int b = 2;
+        int result = Max.max(a, b);
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
 
     @Test
-    public void maxEquals() {
-        int left = 2;
-        int right = 2;
-        int result = Max.max(left, right);
-        int expected = 2;
+    public void maxEqualsThreeOperand() {
+        int a = 10;
+        int b = 10;
+        int c = 10;
+        int result = Max.max(a, b, c);
+        int expected = 10;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void maxEqualsFourOperand() {
+        int a = -90;
+        int b = -90;
+        int c = -90;
+        int d = -90;
+        int result = Max.max(a, b, c, d);
+        int expected = -90;
         Assert.assertEquals(result, expected);
     }
 
