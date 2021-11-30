@@ -23,8 +23,8 @@ public class MaxTest {
         int expected = 100;
         Assert.assertEquals(result, expected);
     }
-    @Test
 
+    @Test
     public void maxFourOperand() {
         int a = 10;
         int b = 9;
