@@ -70,6 +70,18 @@ public class MatrixCheckTest {
     }
 
     @Test
+    public void whenDataMonoVerticalFalse() {
+        char[][] input = {
+                {' ', ' ', ' '},
+                {' ', ' ', ' '},
+                {'X', ' ', 'X'},
+        };
+        int column = 1;
+        boolean result = MatrixCheck.monoVertical(input, column);
+        Assert.assertFalse(result);
+    }
+
+    @Test
     public void whenDataHMonoByTrueThenTrue() {
         char[][] input = {
                 {' ', ' ', ' ', ' ', ' '},
